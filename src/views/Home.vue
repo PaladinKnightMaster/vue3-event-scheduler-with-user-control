@@ -114,7 +114,7 @@ const handleAdd = () => {
 };
 
 const editEvent = (id) => {
-  if (!user.is_admin) {
+  if (!user.value.is_admin) {
     return;
   }
   // console.log("EDIT EVENT!")
@@ -127,7 +127,7 @@ const editEvent = (id) => {
 };
 
 const deleteEvent = async (id) => {
-  if (!user.is_admin) {
+  if (!user.value.is_admin) {
     return;
   }
   // console.log("DELETE EVENT!")
