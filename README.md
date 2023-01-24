@@ -13,6 +13,9 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Backend
 https://github.com/PaladinKnightMaster/node-mysql-calender-backend.git
 
+## Heroku Deployment
+Packing with Node.JS APP with server.js
+
 ## Project Setup
 
 ```sh
